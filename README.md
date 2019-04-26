@@ -40,7 +40,7 @@ semantic tags are <h1>, <p>, <section>, <nav>, <header>, <footer>
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 Display inline allows elements to be nested within other elements without 
-disrupting the flow of content. Height/width have no effect on inline. 
+disrupting the flow of content. Height/width have no effect on inline. Size is dependant on content.
 <a> and <span> tags are examples of inline.
 Display block lets elements take up as much space as their parent element will allow.
 You need to employ both height/width properties. <div> and <p> are examples.
@@ -52,7 +52,7 @@ The 4 areas of the box model are margin, border, padding, and content.
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 While using flexbox the align-items: center property affects the cross-axis
-(ie, vertical).
+(ie, vertical). Also opposite of flex direction.
 
 5. Explain why git is valuable to a team of developers.
 
